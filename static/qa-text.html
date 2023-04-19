@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA</title>
+    <!-- 引入 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="qa-text.css">
+</head>
+<body>
+<h1>QA SYSTEM</h1>
+<div class="form-container">
+    <form id="qa-form">
+        <label for="context">context: </label>
+        <textarea id="context" name="context"></textarea>
+
+        <label for="question">question: </label>
+        <input type="text" id="question" name="question">
+
+        <input type="submit" value="提交">
+    </form>
+</div>
+
+<!-- 用于呈现响应 -->
+<div class="response-container">
+    <div id="answer"></div>
+    <div id="reason"></div>
+    <div id="score"></div>
+</div>
+
+<!-- 在 HTML 中引入 JavaScript -->
+<script src="qa-text.js"></script>
+</body>
+</html>

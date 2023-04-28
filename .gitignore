@@ -1,4 +1,6 @@
 .idea
 .ipynb_checkpoints
 __pycache__
-bert-finetuned-squad
+bert-finetuned-squad*/
+roberta-finetuned-squad/
+spanbert-finetuned-squad/
